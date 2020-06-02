@@ -1,0 +1,43 @@
+body {
+	background: #eee;
+}
+#adminpanel .panel-body {padding:1em}
+#adminpanel .thumbnail {display: inline-block; padding: 1em; line-height: 3em; margin: 0px;}
+.media img {
+	width: 46px;
+	height: 46px;
+}
+#topics .panel-body {
+	padding: 0;
+}
+#topics .media {
+	margin: 0;
+	padding: 15px;
+}
+#topics hr {
+	margin: 0;
+}
+.label {
+	font-size: 10pt;
+	margin-left: 5px;
+	padding: 5px;
+	font-variant: all-small-caps;
+}
+#stats, #stats > * {
+	list-style: none;
+	padding: 0;
+}
+ol.breadcrumb {
+	padding:0;
+	margin:0;
+	background:transparent;
+}
+
+ul {list-style:none;}
+
+.border-default {border-top: 5px solid #777 !important;}
+.border-primary {border-top: 5px solid #337ab7 !important;}
+.border-success {border-top: 5px solid #5cb85c !important;}
+.border-info {border-top: 5px solid #5bc0de !important;}
+.border-warning {border-top: 5px solid #f0ad4e !important;}
+.border-danger {border-top: 5px solid #d9534f !important;}
